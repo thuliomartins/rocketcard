@@ -1,0 +1,105 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E1218;
+    height: 100vh;
+    gap: 15em;
+}
+
+.container-card {
+    background-color: #000;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 633px;
+}
+
+.card {
+    background-color: #0E1218;
+    border-radius: 8%;
+    width: 360px;
+    height: 603px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 25px 0 0 20px;
+    gap: 15px;
+}
+
+.logo {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.content {
+    height: 420px;
+}
+
+.perfil {
+   position: relative;
+   margin-top: 20px;
+   right: -58px; 
+}
+
+.perfil img {
+    border-radius: 50%;
+    border: 5px solid #8257e5;
+}
+
+.github-info {
+    width: 180px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 5), rgba(169, 169, 169, 0.308));
+    border-radius: 55px;
+    position: relative;
+    top: -80px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.github-info p {
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    margin: 0 30px 30px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+.lblButton {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+#generate-bg {
+    padding: 15px;
+    width: 225px;
+    border-radius: 8px;
+    background-color: #000;
+    border-color: #1A1A1A;
+    color: #fff;
+    cursor: pointer;
+}
